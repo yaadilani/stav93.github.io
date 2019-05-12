@@ -1,0 +1,106 @@
+body {
+    direction: rtl;
+    background-color: lightgrey;
+}
+
+#container {
+    width: 960px;
+    margin: 0 auto;
+   
+}
+
+#nav1 ul {
+    list-style: none; 
+    /*הגדרת רוחב ומרכוז התפריט לאמצע*/
+    width: 512px;
+    margin: 0 auto;
+}
+
+    #nav1 ul li {
+        float: right;
+    }
+
+        #nav1 ul li a {
+            display: block;
+            background-color: #2f2f33;
+            color: white;
+            text-decoration: none;
+            text-align: center;
+            width: 120px;
+            height: 30px;
+            Padding-top: 10px;
+            padding-bottom: 5px;
+        }
+
+
+
+            #nav1 ul li a:hover {
+                background-color: darkslategray;
+                
+            }
+
+            #nav1 ul li a:active {
+                background-color: darkred;
+            }
+
+
+        #nav1 ul li ul {
+            display: none;
+            position: absolute; 
+        }
+
+        #nav1 ul li:hover ul {
+            display: block;
+        }
+
+        #nav1 .current {
+            background-color: lightslategray;
+        }
+
+        h1 {
+            color: darkred;
+            padding-top: 50px;
+            font-size: 140%;
+
+        }
+
+        h2 {
+            padding-top: 20px;
+        }
+
+        #home_ul {
+            padding-right: 20px;
+            color: darkslategray;
+            font-size: 115%;
+        }
+
+        #my_picture {
+            height: 300px;
+            padding-top: 20px;
+
+        }
+
+        #portrait {
+            height: 400px;
+            padding-top: 20px;
+        }
+
+        audio {
+            display: block;
+            padding: 20px;
+        }
+
+        #original {
+            height: 400px;
+            padding-top: 20px;
+        }
+
+        #new {
+            height: 400px;
+            padding-top: 20px;
+        }
+
+        #poster {
+            height: 400px;
+            padding-top: 20px;
+        }
